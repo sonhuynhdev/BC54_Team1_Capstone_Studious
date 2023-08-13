@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.space-top {
+  padding: 105px;
+}
+
+/*  */
+
+.text-number h1,
+.text-number p {
+  text-align: center;
+}
+.text-number h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.text-number span {
+  color: #ff8078;
+}
+.text-number p {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.stat-number {
+  padding-top: 36px;
+}
+
+.stat-css {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.counter {
+  border-right: 1px solid #ccd0dc;
+}
+.number-text {
+  font-size: 46px;
+  font-weight: 600;
+}
+
+/* Feedback */
+.feedback-text h1 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.feedback-text span {
+  color: #ff8078;
+}
+
+.table--test i {
+  color: #ff6e65;
+  font-size: 30px;
+}
+
+.table--test p {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  color: #929492;
+}
+
+.table-feedback {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+
+.table-feedback--1 {
+  padding: 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+}
+
+.sub-img-test {
+  grid-template-columns: 0.3fr 1fr;
+  align-items: center;
+  grid-gap: 5px;
+  margin-top: 24px;
+}
+
+.img-text-table img {
+  border-radius: 50%;
+}
+
+.sub-img-test p {
+  color: #a2adb0;
+  font-size: 15px;
+}
+/* World Class Instructors */
+
+.world-text h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 56px;
+}
+.world-text span {
+  color: #ff6e65;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.table-instruc {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.block-single {
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+}
+.img-grid {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.icon-info {
+  text-align: center;
+}
+
+.icon-ground .fac,
+.icon-ground .twiiter,
+.icon-ground .google {
+  background: white;
+  font-size: 18px;
+  margin-left: 15px;
+  border-radius: 50%;
+  padding: 5px;
+  color: blue;
+}
+
+.icon-ground {
+  height: 69px;
+  background: rgb(8 8 8 / 29%);
+  padding-top: 21px;
+  position: absolute;
+  bottom: 95px;
+  width: 100%;
+  /* opacity: 0; */
+  transition: 0.5s all;
+}
+
+.info-info h5 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.info-info p {
+  color: #a2adb0;
+}
+
+.info-info:hover h5 {
+  color: #ff6e65;
+}
